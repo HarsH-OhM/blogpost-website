@@ -25,7 +25,7 @@ function likebtn(el){
 
 function getwords() {
     text = comment.value;
-    document.getElementById("para").innerHTML[1] += '<p>'+text;
+    document.getElementById("para").innerHTML += '<p>'+text;
     document.getElementById("comment").value = "leave a comment here"
 }
 
@@ -52,4 +52,3 @@ editBtn.addEventListener('click', function(e) {
     }
   }
 });
-
