@@ -1,0 +1,2 @@
+# blogpost-website
+its a simple blogpost website using html, css ,and little bit of bootstrap.it contains some very good concepts of javascript which is very crucial to learn and useful to use.i have made a three different html pages .first index or login page ,second is for blogs and third one is of post page.so its very good example for beginners to learn and make for their first attempt as a fresher.
