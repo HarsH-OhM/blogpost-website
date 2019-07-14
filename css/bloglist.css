@@ -1,0 +1,248 @@
+
+ 
+  .post {
+    position: relative;
+    width: 525px;
+    height: 100%;
+    background: #fff;
+    box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
+    margin: 10px 10px 10px 20px;
+    flex-flow: column-reverse;
+    border-radius: 15px;
+    
+    
+    
+} 
+    
+  .post-left {
+        width: 15%;            
+        max-width: 15%;
+       height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-weight: bold;
+        color: #000;
+        block-size: 150px;
+        
+       
+        
+}
+ .post-content {
+        width: 525px;    
+        height: 100%;
+        display: table-cell;
+        text-align: left;
+        background-color: #E8E8E8;
+        color: #000000;
+        border-radius: 0 15px 15px 0;
+        padding: 0 20px;   
+        
+           
+}
+.post-title{
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    color: #2b312b;
+    font-size: 25px;
+    height: 25px;
+    
+    }
+.post-more {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.post-desc{
+    height: 100px;
+    margin-bottom: 0 !important;
+    
+    
+    
+  overflow:hidden;
+}
+ 
+
+html body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 !important;
+    color: #fff;
+    background-color: orange;
+    background-size: 2000% 2000%;
+}
+
+
+.container{
+    padding: 40px;
+    width: 100%;
+    
+
+}
+form.modal-content{
+    padding:30px;
+    width: 40%;      
+}
+
+.signupbtn{
+
+    padding: 20px;
+    width: 100%;
+
+}
+ 
+i{
+    float:right;
+    cursor: pointer;
+    
+}
+
+#delete{
+    cursor: pointer;
+}
+
+
+
+
+a{
+    float:right;
+    color: black;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    width:70%;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+   
+    right: 100px;
+    top: 15px;
+   color: gray;
+    font-size: 28px;
+    font-weight: bold;
+   
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color:white;
+    color:black;
+    text-align: center;
+  }
+  
+  .modal-body {padding:0;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color:white;
+    color: white;
+  }
+
+
+
+
+  /* button {
+      
+    border: 1px green solid;
+    padding: 4px 10px;
+} */
+.hide {
+    display: none;
+}
+
+ #myBtn{
+
+    margin:5px;
+    padding: 10px;
+    width:70px;
+    margin-right: 70px;
+    margin-left: 70px;
+    
+}
+
+.body2{
+    padding:70px;
+
+    
+}
+
+#myBtn1,#myBtn2,#myBtn3,#myBtn4,#myBtn5{
+    background-color: #E8E8E8;
+    border: none;
+    color: black;
+}
+
+@media only screen and (max-width:1180px)  {
+   
+.body2{
+   width: 100%;
+   padding: 40px;
+   
+   background-color:green;
+    
+}
+.post{
+    position: relative;
+    width: 525px;
+    height: 100%;
+    display: table-cell;
+    margin:100%;
+    border-radius: 15px; 
+  }
+ 
+  .col-md-6{
+      padding: 20px;
+      
+  }
+}
