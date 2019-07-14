@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Place all CSS for header in this file -->
+    <link href='css\header.css' rel='stylesheet' type='text/css'>
+
+    <!-- Place all CSS for the rest of the elements in this file -->
+    <link href='css\index.css' rel='stylesheet' type='text/css'>
+
+	<!-- Place all CSS for fonts in this file -->
+    <link href='css\font.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div id="main-container-div">
+
+        <div class="header">
+
+            <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+            <input  class="topButtons" type="button" value="Sign Up" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+            <input  class="topButtons" type="button" value="Sign In" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" >
+            <a id="pageTitle" class="logo-title">ScriBBler</a>
+            <p class="middleText">Explore,imagin,Create</p>
+
+
+        </div>
+           
+        <div class="postButtons">
+
+            <!-- Insert code for All Posts & Create Post button here -->
+           <a href="bloglist.html"> <input class="btn" type="button" value="All Posts"></a>
+            <input  id="myBtn" class="btn" type="button" value="Create Post">
+            
+
+
+        </div>
+    </div>
+    
+
+    <div  id="id01" class="modal">
+           
+
+        <!-- Insert code for Sign Up modal here -->
+        <form class="modal-content" action="/action_page.php">
+            <span class="close" onclick="document.getElementById('id01').style.display='none'">&times;</span>
+        <div class="container">
+                
+
+                <h1>Get Started</h1>
+                
+                <hr>
+                <label for="name"><b>Full Name</b></label>
+                <input type="text" placeholder="Full Name" name="email" required>
+
+                <label for="name"><b>Username</b></label>
+                <input type="text" placeholder="Username" name="email" required>
+          
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+          
+                <label for="psw-repeat"><b>Conform Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                
+                <div class="clearfix">
+                  <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+            </div>
+           
+        </form>
+    
+
+    </div>
+
+    
+        
+    <div  id="id02" class="modal">
+
+        <!-- Insert code for Sign In modal here -->
+        <form class="modal-content" action="/action_page.php">
+            <span class="close"  onclick="document.getElementById('id02').style.display='none'">&times;</span>
+        <div class="container">
+
+                <h1>Wellcome back!</h1>
+                
+                <hr>
+                
+                <label for="name"><b>Username</b></label>
+                <input type="text" placeholder="Username" name="email" required>
+          
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+        
+                <div class="clearfix">
+                  
+                  <button type="submit" class="signupbtn">Sign In</button>
+                  <p style="text-align: center;"><strong>Not a member?<a><span style="color: blue;" onclick="document.getElementById('id01').style.display='block'">Sign Up</span></a><strong></p>
+                </div>
+            </div>
+           
+        </form>
+
+    </div>
+
+    <div>
+
+        <!-- Insert code for Create Post modal here -->
+        <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close3" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                  
+                  <h1>Create your post here.</h1>
+                  <hr>
+                  
+                  <form>
+                  Title:<input type="text-box"  id="post1" placeholder="" name="title"><br><br>
+            
+                  <h4>content:</h4>
+                  <textarea>type here..</textarea>
+                  <input type="submit" class="btn" value="Create">
+                </form>
+                  
+                  
+                       
+                        
+                     
+                </div>
+              
+              </div>
+              
+
+    </div>
+
+	<!-- Place all Javascript for header in this file -->
+	<script src="js\header.js"></script>
+	<!-- Place all Javascript for rest of the elements in this file -->
+    <script src="js\index.js"></script>
+
+    
+</body>
+</html>
